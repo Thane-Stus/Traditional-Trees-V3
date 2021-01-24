@@ -1,18 +1,12 @@
 This file contains random bits of info about stuff that needs done and other things that I didnt want to create another file for
+Search for #FIX in files to locate things that needs fixed/changed/finished
 
-List of files that dont have localisation for any language
-common/traditions
-	tt_colonialism
-	tt_spacebound
-	
-events
+List of things that are fully coded but missing loc or icons
+	tt_colonialism 
 	tt_colonialism_events
-	
-List of tradition categories that lack icons
-	tt_colonialism
 	tt_spacebound
 	
-List of vanilla files that get overwritten
+List of vanilla files and folders that get overwritten
 	interface/topbar_traditions_view.gui
 	common/pop_jobs/02_specialist_jobs.txt
 	common/traditions
