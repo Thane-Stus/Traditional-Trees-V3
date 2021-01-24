@@ -92,6 +92,13 @@ guiTypes = {
 	positionType = { name = "tt_spacebound_4"						  	position = { x = 201 y = 55 } }
 	positionType = { name = "tt_spacebound_5"						  	position = { x = 201 y = 125 } }
 	
+	positionType = { name = "tt_leadership_1"        					position = { x = 96 y = 55 } }
+	positionType = { name = "tt_leadership_2"       			     	position = { x = 61 y = 125 } }
+	positionType = { name = "tt_leadership_3" 						  	position = { x = 131 y = 125 } }
+	positionType = { name = "tt_leadership_4"        				 	position = { x = 201 y = 55 } }
+	positionType = { name = "tt_leadership_5"        		         	position = { x = 201 y = 125 } }
+
+	
 #Ascension Perks
 	
 	positionType = { name = "ap_0"	position = { x = 0 y = 2 } }
@@ -1267,7 +1274,7 @@ guiTypes = {
 			################################################################
 
 			containerWindowType = {
-				name = "tt_dom_1"
+				name = "tt_leadership"
 				size = { width = @entry_w height = @entry_h_narrow }
 				position = { x = @entries_column3 y = @entries_row3_y }
 
@@ -1288,7 +1295,7 @@ guiTypes = {
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
-					text = "tt_dom_1"
+					text = "tt_leadership"
 				}
 
 				containerWindowType = {
@@ -1341,7 +1348,23 @@ guiTypes = {
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
-					text = "tt_dom_1_desc"
+					text = "tt_leadership_desc"
+				}
+
+				containerWindowType = {
+					name = "tree"
+
+					iconType = {
+						name = "arrow_1"
+						spriteType = "GFX_arrow_double"
+						position = { x = 76 y = 100 }
+					}
+					
+					iconType = {
+						name = "arrow_2"
+						spriteType = "GFX_arrow_single"
+						position = { x = 217 y = 100 }
+					}
 				}
 			}
 			

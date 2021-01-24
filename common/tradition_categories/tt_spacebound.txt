@@ -8,4 +8,11 @@ tt_spacebound = {
 		"tt_spacebound_4"
 		"tt_spacebound_5"		
 	}
+	tradition_swap = {
+		name = tt_terraformers
+		trigger = { has_country_flag = tt_terraformers_selected }
+		weight = {
+			factor = 1
+		}		
+	}
 }

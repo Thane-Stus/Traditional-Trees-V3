@@ -53,4 +53,29 @@ spriteTypes = {
 		name = "GFX_tt_spacebound_5"
 		textureFile = "gfx/tradition_unknown.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_tt_leadership_1"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_leadership_2"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_leadership_3"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_leadership_4"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_leadership_5"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
 }

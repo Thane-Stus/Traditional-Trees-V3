@@ -1,0 +1,20 @@
+namespace = tt_spacebound_events
+
+event = {
+	id = tt_spacebound_events.1
+	title = tt_spacebound_events.1.main
+	desc = tt_spacebound_events.1.desc
+	picture = GFX_evt_alien_nature #FIX
+	hide_window = no
+
+	is_triggered_only = yes
+	
+	option = { #Spacebound
+		name = tt_spacebound_events.1.a
+		set_country_flag = tt_spacebound_selected
+	}
+	option = { #Terraformers
+		name = tt_spacebound_events.1.b
+		set_country_flag = tt_terraformers_selected
+	}
+}

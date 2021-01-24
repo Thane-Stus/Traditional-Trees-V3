@@ -1,0 +1,172 @@
+namespace = tt_leadership_events
+#FIX
+#REWRITE THIS INTO MORE THAN 1 EVENT YOU IDIOT
+event = {
+	id = tt_leadership_events.1
+	title = tt_leadership_events.1.main
+	desc = tt_leadership_events.1.desc
+	picture = GFX_evt_alien_nature #FIX
+	hide_window = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tt_leadership_events.1.cancel
+	}
+	
+	option = {
+		name = tt_leadership_events.1.1
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_architectural_sense } } }
+		ruler = { add_trait = trait_ruler_architectural_sense }
+		add_resource = { influence = -100 } 
+	}
+	
+	option = {
+		name = tt_leadership_events.1.2
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_champion_of_the_people } } }
+		ruler = { add_trait = trait_ruler_champion_of_the_people }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.3
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_charismatic } } }
+		ruler = { add_trait = trait_ruler_charismatic }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.4
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_deep_connections } } }
+		ruler = { add_trait = trait_ruler_deep_connections }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.5
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_expansionist } } }
+		ruler = { add_trait = trait_ruler_expansionist }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.6
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_explorer } } }
+		ruler = { add_trait = trait_ruler_explorer }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.7
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_eye_for_talent } } }
+		ruler = { add_trait = trait_ruler_eye_for_talent }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.8
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_fertility_preacher } } }
+		ruler = { add_trait = trait_ruler_fertility_preacher }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.9
+		trigger = { ruler = { NOT = { has_trait = leader_trait_fleet_organizer } } }
+		ruler = { add_trait = leader_trait_fleet_organizer }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.10
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_fortifier } } }
+		ruler = { add_trait = trait_ruler_fortifier }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.11
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_from_the_ranks } } }
+		ruler = { add_trait = trait_ruler_from_the_ranks }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.12
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_frontier_spirit } } }
+		ruler = { add_trait = trait_ruler_frontier_spirit }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.13
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_home_in_the_sky } } }
+		ruler = { add_trait = trait_ruler_home_in_the_sky }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.14
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_industrialist } } }
+		ruler = { add_trait = trait_ruler_industrialist }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.15
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_investor } } }
+		ruler = { add_trait = trait_ruler_investor }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.16
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_logistic_understanding } } }
+		ruler = { add_trait = trait_ruler_logistic_understanding }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.17
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_military_pioneer } } }
+		ruler = { add_trait = trait_ruler_military_pioneer }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.18
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_recruiter } } }
+		ruler = { add_trait = trait_ruler_recruiter }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.19
+		trigger = { ruler = { NOT = { has_trait = leader_trait_reformer } } }
+		ruler = { add_trait = leader_trait_reformer }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.20
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_space_miner } } }
+		ruler = { add_trait = trait_ruler_space_miner }
+	}
+	option = {
+		name = tt_leadership_events.1.21
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_warlike } } }
+		ruler = { add_trait = trait_ruler_warlike }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.22
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_world_shaper } } }
+		ruler = { add_trait = trait_ruler_world_shaper }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.23
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_corvette_focus } } }
+		ruler = { add_trait = trait_ruler_corvette_focus }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.24
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_destroyer_focus } } }
+		ruler = { add_trait = trait_ruler_destroyer_focus }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.25
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_cruiser_focus } } }
+		ruler = { add_trait = trait_ruler_cruiser_focus }
+	}
+	
+	option = {
+		name = tt_leadership_events.1.26
+		trigger = { ruler = { NOT = { has_trait = trait_ruler_battleship_focus } } }
+		ruler = { add_trait = trait_ruler_battleship_focus }
+	}
+}

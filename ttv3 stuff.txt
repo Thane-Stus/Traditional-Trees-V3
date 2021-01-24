@@ -22,14 +22,18 @@ Plans for v3.0
 	Do ALL the trees and get them functional
 		
 	Expansion
-		Starborne NEEDS LOC AND ICONS
+		Spacebound/Terraformers NEEDS LOC AND ICONS
 			Adoption
 				+20% Mining/Research Station Output
 			Finisher
 				+25% Megastructure Build Speed
-			Starborne Branch
-				1 -25% Colony Ship Build Cost and Upkeep
-				2 +50% Colony Dev Speed
+			Main Split Branch
+				Spacebound Branch
+					1 +1 Hab Building Count
+					2 +1 Hab Disctrict Count
+				Terraformers Branch
+					1 -25% Terraforming Cost
+					2 +33% Terraforming Speed
 			Emp Spawl Branch
 				+2 Admin Cap from Bcrats
 			Starbase Branch
@@ -55,27 +59,32 @@ Plans for v3.0
 	Domination
 		Leadership
 			Adoption
-				+33% Leader Exp Gain
+				Allows you to pay influence to add a trait to your ruler
 			Finisher
-				+15 Leader Lifespan
+				+20 Leader Lifespan
 			Leader Branch
-				1 Selection of bonuses from event
-					Loosely based on Chivalry Tree from EST
-				2
-				3
+				1
+					+25% Leader Exp Gain
+					+1 Leader Level Cap
+				2 -33% Leader Recruitment Cost
+				3 -33% Leader Upkeep
 			Building Branch
-				1 +1 Amenities from Housing
+				1 +2 Amenities from Housing
 				2 +1 Building Slot
-		Vassals
+		Workers
 			Adoption
+				Unlocks Planet descision that adds +5 Miner, Farmer, or Tech jobs,
+				Can be switched every 5 years
 			Finisher
-			Vassal Branch
-				1
-				2
-				3
+				+1 Base Output for Miners, Farmers, Technicians.
+				Fires event that gives choice and adds edict to switch
+			Law Enforcement
+				1 +1 Enforcer Unity Output
+				2 +1 Enforcer per 50 Pops
 			Workers/Slaves Branch
-				1
-				2
+				1 +5 Worker and Slave Happiness
+				2 -15% Worker and Slave Political Power
+				3 -15% Worker and Slave Upkeep
 		
 	Discovery
 		X

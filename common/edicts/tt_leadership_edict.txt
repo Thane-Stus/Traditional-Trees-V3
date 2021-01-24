@@ -1,0 +1,22 @@
+tt_leadership_edict = {
+	length = 0
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = campaigns
+		cost = {
+			energy = 1
+		}
+	}
+
+	effect = {
+		country_event = { id = tt_leadership_events.1 days = 0 }
+	}
+
+	potential = {
+		has_tradition = tt_leadership_adopt
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

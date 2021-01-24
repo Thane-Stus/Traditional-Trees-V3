@@ -1,6 +1,10 @@
 tt_colonialism_adopt = {
 	possible = {
-		has_tradition = tradition_expansion_finish
+		has_tradition = tr_expansion_colonization_fever
+		has_tradition = tr_expansion_a_new_life
+		has_tradition = tr_expansion_courier_network
+		has_tradition = tr_expansion_reach_for_the_stars
+		has_tradition = tr_expansion_galactic_ambition
 	}
 	
 	#Handled in Events

@@ -1,6 +1,10 @@
 tt_spacebound_adopt = {
 	possible = {
-		has_tradition = tradition_expansion_finish
+		has_tradition = tr_expansion_colonization_fever
+		has_tradition = tr_expansion_a_new_life
+		has_tradition = tr_expansion_courier_network
+		has_tradition = tr_expansion_reach_for_the_stars
+		has_tradition = tr_expansion_galactic_ambition
 	}
 	
 	modifier = {
@@ -9,6 +13,7 @@ tt_spacebound_adopt = {
 	
 	on_enabled = {
 		country_event = { id = tt_spacebound_events.1 } 
+		country_event = { id = tt_leadership_events.1 }
 	}
 	
 	ai_weight = { #FIX
@@ -23,10 +28,24 @@ tt_spacebound_finish = {
 	}
 }
 
+#Terraformers/Hab Swap 1
 tt_spacebound_1 = {
-	modifier = {
-		ship_colonizer_cost_mult = -0.25
-		shipclass_colonizer_build_cost_mult = -0.25
+	#Handled in building file
+	
+	tradition_swap = {
+		name = tt_terraformers_1
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = no
+		trigger = { has_country_flag = tt_terraformers_selected }
+		
+		modifier = {
+			terraforming_cost_mult = -0.25
+		}
+		
+		weight = {
+			factor = 1
+		}
 	}
 	
 	ai_weight = {
@@ -34,13 +53,28 @@ tt_spacebound_1 = {
 	}
 }
 
+#Terraformers/Hab Swap 2
 tt_spacebound_2 = {
 	possible = {
 		has_tradition = tt_spacebound_1
 	}
 	
-	modifier = {
-		planet_colony_development_speed_mult = 0.50
+	#Handled in building file
+	
+	tradition_swap = {
+		name = tt_terraformers_2
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = no
+		trigger = { has_country_flag = tt_terraformers_selected }
+		
+		modifier = {
+			terraform_speed_mult = 0.33
+		}
+		
+		weight = {
+			factor = 1
+		}
 	}
 	
 	ai_weight = {
