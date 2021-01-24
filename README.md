@@ -9,6 +9,7 @@ List of things that are fully coded but missing loc or icons
 	tt_spacebound
 	
 List of vanilla files and folders that get overwritten
+
 	interface/topbar_traditions_view.gui
 	common/pop_jobs/02_specialist_jobs.txt
 	common/traditions
