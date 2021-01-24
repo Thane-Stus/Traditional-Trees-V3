@@ -1,0 +1,11 @@
+tt_spacebound = {
+	adoption_bonus = "tt_spacebound_adopt"
+	finish_bonus = "tt_spacebound_finish"
+	traditions = {
+		"tt_spacebound_1"
+		"tt_spacebound_2"
+		"tt_spacebound_3"
+		"tt_spacebound_4"
+		"tt_spacebound_5"		
+	}
+}

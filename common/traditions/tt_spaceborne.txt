@@ -1,0 +1,76 @@
+tt_spacebound_adopt = {
+	modifier = {
+		stations_produces_mult = 0.25
+	}
+	
+	ai_weight = { #FIX
+		factor = 0
+	}
+}
+
+tt_spacebound_finish = {
+	modifier = {
+		megastructure_build_speed_mult = 0.25
+		ascension_perks_add = 1
+	}
+}
+
+#Spacebound Terraformer Swap 1
+tt_spacebound_1 = {
+	modifier = {
+		ship_colonizer_cost_mult = -0.25
+		shipclass_colonizer_build_cost_mult = -0.25
+	}
+		
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+#Spacebound Terraformer Swap 2
+tt_spacebound_2 = {
+	possible = {
+		has_tradition = tt_spacebound_1
+	}
+	
+	modifier = {
+		planet_colony_development_speed_mult = 0.50
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tt_spacebound_3 = {
+	#Increased Bcrat admin cap by 2
+	#Handled in Jobs file
+	
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+tt_spacebound_4 = {
+	modifier = {
+		country_starbase_capacity_add = 3
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tt_spacebound_5 = {
+	possible = {
+		has_tradition = tt_spacebound_4
+	}
+	
+	modifier = {
+		starbase_defense_platform_capacity_add = 6
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}

@@ -1,0 +1,109 @@
+TTV3 Main Goals
+	Standalone
+		Reliance on EST and PT is annoying and makes updates difficult
+		Making everything myself will take more upfront but updates later will be way easier
+		Also gonna steal some ideas from TTM, EST, and PT
+	Consistant Tree Sizes
+		All trees will have 3 parts, totalling 3 adopts, 3 finishers, and 15 traditions.
+	Performance Improvements
+		TTV1 and TTV2 are VERY poorly made and I hate past me
+	And just being a better mod in general
+
+Plans for v3.0
+	UI Rewrite
+		Move Descriptions
+		Add subtrees for the other 6 trees
+	Do ALL the trees and get them functional
+		
+	Expansion
+		Starborne/Terraformers NEEDS LOC
+			Gives choice when taken, changes left 2 trads to give Terraforming or Habitat bonuses
+			Adoption
+				+20% Mining/Research Station Output
+			Finisher
+				+25% Megastructure Build Speed
+			Main Split Branch
+				Starborne Branch
+					1 -15% Hab Build/Influence Cost
+					2 +1 Hab Disctrict Count
+				Terraformers Branch
+					1 -25% Terraforming Cost
+					2 +33% Terraforming Speed
+			Emp Spawl Branch
+				+2 Admin Cap from Bcrats
+			Starbase Branch
+				1 +2 Starbase Cap
+				2 +X Starbase Defense Platforms
+				
+		Colonialism NEEDS LOC
+			Adoption
+				+1 Colony Ship Constructed
+			Finisher
+				+1 Building Slot
+			Rapid Colonization Branch
+				1 -25% Colony Ship Upkeep/Build Cost
+				Rapid Colonization
+					+50% Colony Dev Speed
+			Colonization Initiatives Branch
+				Colonization Initiatives
+					+15% Migrant Growth
+					+33% Migrant Attraction
+				2 +10 Habitability
+				3 +2 Colonists on new Colonies
+				
+	Domination
+		Leadership
+			Adoption
+				+33% Leader Exp Gain
+			Finisher
+				+15 Leader Lifespan
+			Leader Branch
+				1 Selection of bonuses from event
+					Loosely based on Chivalry Tree from EST
+				2
+				3
+			Building Branch
+				1 +1 Amenities from Housing
+				2 +1 Building Slot
+		Vassals
+			Adoption
+			Finisher
+			Vassal Branch
+				1
+				2
+				3
+			Workers/Slaves Branch
+				1
+				2
+		
+	Discovery
+		X
+		Y
+		
+	Harmony
+		X
+		Y
+		
+	Prosperity
+		X
+		Y
+		
+	Diplomacy
+		X
+		Y
+		
+	Supremacy
+		X
+		Y
+		
+Plans for V3.1
+	Fix bugs
+	AI Weights
+	
+Plans for V3.2
+	Fix Bugs
+	New trees related to AP paths
+	
+Plans for V3.3
+	Fix Bugs
+	Stuff suggested by J and others

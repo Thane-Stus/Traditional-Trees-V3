@@ -1,0 +1,82 @@
+tt_colonialism_adopt = {
+	#Handled in Events
+	#Reference ESAP for Code
+	
+	ai_weight = { #FIX
+		factor = 0
+	}
+}
+
+tt_colonialism_finish = {
+	modifier = {
+		planet_max_buildings_add = 1
+		ascension_perks_add = 1
+	}
+}
+
+tt_colonialism_1 = {
+	modifier = {
+		ship_colonizer_cost_mult = -0.25
+		shipclass_colonizer_build_cost_mult = -0.25
+	}
+		
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+#Rapid Colonization
+tt_colonialism_2 = {
+	possible = {
+		has_tradition = tt_colonialism_1
+	}
+	
+	modifier = {
+		planet_colony_development_speed_mult = 0.50
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+#This needs a swap for Machine Empires, #FIX
+tt_colonialism_3 = {
+	modifier = {
+		pop_growth_from_immigration = 0.15
+		planet_immigration_pull_mult = 0.33
+	}
+	
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+#This needs a swap for Machine Empires, #FIX
+tt_colonialism_4 = {
+	possible = {
+		has_tradition = tt_colonialism_3
+	}
+	
+	modifier = {
+		pop_environment_tolerance = 0.10
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tt_colonialism_5 = {
+	possible = {
+		has_tradition = tt_colonialism_3
+	}
+	
+	modifier = {
+		colony_start_num_pops_add = 2
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}

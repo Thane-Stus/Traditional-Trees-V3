@@ -1,0 +1,56 @@
+####################################################################
+### Tradition Related Graphics Which Is Not The Icons Themselves ###
+####################################################################
+
+### Adopter Tradition Category ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_tt_colonialism_1"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_colonialism_2"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_colonialism_3"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_colonialism_4"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_colonialism_5"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_spacebound_1"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_spacebound_2"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_spacebound_3"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_spacebound_4"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_spacebound_5"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+}

@@ -1,0 +1,11 @@
+tt_colonialism = {
+	adoption_bonus = "tt_colonialism_adopt"
+	finish_bonus = "tt_colonialism_finish"
+	traditions = {
+		"tt_colonialism_1"
+		"tt_colonialism_2"
+		"tt_colonialism_3"
+		"tt_colonialism_4"
+		"tt_colonialism_5"		
+	}
+}

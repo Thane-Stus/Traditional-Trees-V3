@@ -1,0 +1,58 @@
+namespace = tt_colonialism_events
+
+#Colonialism Adoption Effect
+#Borrowed code from ESAP 1067631798
+ship_event = {
+	id = tt_colonialism_events.1
+	title = tt_colonialism_events.1.name
+	desc = tt_colonialism_events.1.desc
+	picture = GFX_evt_dark_alley #FIX Set this to something more appropriate
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = { has_tradition = tt_colonialism_adopt }		
+		is_ship_size = colonizer	
+	}
+	
+	option = { #Always
+		name = tt_colonialism_events.1.a
+		hidden_effect = { 
+			create_fleet = {
+				effect = {
+					set_owner = root.owner
+					create_ship = {
+						name = random
+						design = random_existing_design
+						random_existing_design = colonizer
+						prefix = yes
+					}
+					set_location = root
+				}
+			}
+			owner = { set_country_flag = tt_colonialism_events_1_always }
+		}
+	}
+	
+	option = { #Just Once
+		name = tt_colonialism_events.1.b
+		hidden_effect = { 
+			create_fleet = {
+				effect = {
+					set_owner = root.owner
+					create_ship = {
+						name = random
+						design = random_existing_design
+						random_existing_design = colonizer
+						prefix = yes
+					}
+					set_location = root
+				}
+			}
+		}
+	}
+	
+	option = { #Not This Time
+		name = tt_colonialism_events.1.c
+	}
+}

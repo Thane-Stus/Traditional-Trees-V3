@@ -1,0 +1,12 @@
+List of files that dont have localisation for any language
+
+common/traditions
+	tt_colonialism
+	tt_spacebound
+	
+events
+	tt_colonialism_events
+	
+List of tradition categories that lack icons
+	tt_colonialism
+	tt_spacebound
