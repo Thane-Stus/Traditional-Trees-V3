@@ -1,5 +1,6 @@
-List of files that dont have localisation for any language
+This file contains random bits of info about stuff that needs done and other things that I didnt want to create another file for
 
+List of files that dont have localisation for any language
 common/traditions
 	tt_colonialism
 	tt_spacebound
@@ -10,3 +11,9 @@ events
 List of tradition categories that lack icons
 	tt_colonialism
 	tt_spacebound
+	
+List of vanilla files that get overwritten
+	interface/topbar_traditions_view.gui
+	common/pop_jobs/02_specialist_jobs.txt
+	common/traditions
+	common/tradition_categories
