@@ -1,4 +1,8 @@
 tt_colonialism_adopt = {
+	possible = {
+		has_tradition = tradition_expansion_finish
+	}
+	
 	#Handled in Events
 	#Reference ESAP for Code
 	

@@ -1,6 +1,14 @@
 tt_spacebound_adopt = {
+	possible = {
+		has_tradition = tradition_expansion_finish
+	}
+	
 	modifier = {
 		stations_produces_mult = 0.25
+	}
+	
+	on_enabled = {
+		country_event = { id = tt_spacebound_events.1 } 
 	}
 	
 	ai_weight = { #FIX
@@ -15,19 +23,17 @@ tt_spacebound_finish = {
 	}
 }
 
-#Spacebound Terraformer Swap 1
 tt_spacebound_1 = {
 	modifier = {
 		ship_colonizer_cost_mult = -0.25
 		shipclass_colonizer_build_cost_mult = -0.25
 	}
-		
+	
 	ai_weight = {
 		factor = 1000
 	}
 }
 
-#Spacebound Terraformer Swap 2
 tt_spacebound_2 = {
 	possible = {
 		has_tradition = tt_spacebound_1

@@ -1,3 +1,9 @@
+######################################################
+NUMBERS IN THIS FILE ARE NOT FILE
+SOME HAVE ALREADY BEEN TWEAKED OR CHANGED COMPLETELY
+DO NOT EDIT ANYTHING TO EXACTLY MATCH THIS FILE
+######################################################
+
 TTV3 Main Goals
 	Standalone
 		Reliance on EST and PT is annoying and makes updates difficult
@@ -16,26 +22,21 @@ Plans for v3.0
 	Do ALL the trees and get them functional
 		
 	Expansion
-		Starborne/Terraformers NEEDS LOC
-			Gives choice when taken, changes left 2 trads to give Terraforming or Habitat bonuses
+		Starborne NEEDS LOC AND ICONS
 			Adoption
 				+20% Mining/Research Station Output
 			Finisher
 				+25% Megastructure Build Speed
-			Main Split Branch
-				Starborne Branch
-					1 -15% Hab Build/Influence Cost
-					2 +1 Hab Disctrict Count
-				Terraformers Branch
-					1 -25% Terraforming Cost
-					2 +33% Terraforming Speed
+			Starborne Branch
+				1 -25% Colony Ship Build Cost and Upkeep
+				2 +50% Colony Dev Speed
 			Emp Spawl Branch
 				+2 Admin Cap from Bcrats
 			Starbase Branch
-				1 +2 Starbase Cap
-				2 +X Starbase Defense Platforms
+				1 +3 Starbase Cap
+				2 +6 Starbase Defense Platforms
 				
-		Colonialism NEEDS LOC
+		Colonialism NEEDS LOC AND ICONS
 			Adoption
 				+1 Colony Ship Constructed
 			Finisher
