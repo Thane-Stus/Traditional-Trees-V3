@@ -1,0 +1,5 @@
+on_ship_built = {
+	events = {
+		tt_colonialism_events.1
+	}
+}
