@@ -15,6 +15,7 @@ List of things that are fully coded but missing loc or icons
 List of vanilla files and folders that get overwritten
 
 	common/buildings/00_capital_buildings.txt
+	common/buildings/07_amenity_buildings.txt
 	common/pop_jobs/02_specialist_jobs.txt
 	common/traditions
 	common/tradition_categories
