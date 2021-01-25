@@ -1,0 +1,11 @@
+tt_order = {
+	adoption_bonus = "tt_order_adopt"
+	finish_bonus = "tt_order_finish"
+	traditions = {
+		"tt_order_1"
+		"tt_order_2"
+		"tt_order_3"
+		"tt_order_4"
+		"tt_order_5"		
+	}
+}

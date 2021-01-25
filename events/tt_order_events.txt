@@ -1,0 +1,50 @@
+namespace = tt_order_events
+
+event = {
+	id = tt_order_events.1
+	title = tt_order_events.1.main
+	desc = tt_order_events.1.desc
+	picture = GFX_evt_alien_nature #FIX
+	hide_window = no
+
+	is_triggered_only = yes
+	
+	option = {
+		name = tt_order_events.1.ec
+		trigger = { NOT = { has_modifier = tt_order_ec } }
+		hidden_effect = {
+			remove_modifier = tt_order_food
+			remove_modifier = tt_order_minerals
+			add_modifier = {
+				modifier = "tt_order_ec"
+				days = -1
+			}
+		}
+	}
+	
+	option = {
+		name = tt_order_events.1.food
+		trigger = { NOT = { has_modifier = tt_order_food } }
+		hidden_effect = {
+			remove_modifier = tt_order_ec
+			remove_modifier = tt_order_minerals
+			add_modifier = {
+				modifier = "tt_order_food"
+				days = -1
+			}
+		}
+	}
+	
+	option = {
+		name = tt_order_events.1.minerals
+		trigger = { NOT = { has_modifier = tt_order_minerals } }
+		hidden_effect = {
+			remove_modifier = tt_order_food
+			remove_modifier = tt_order_ec
+			add_modifier = {
+				modifier = "tt_order_minerals"
+				days = -1
+			}
+		}
+	}
+}

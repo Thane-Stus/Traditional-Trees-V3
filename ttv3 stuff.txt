@@ -15,11 +15,10 @@ TTV3 Main Goals
 		TTV1 and TTV2 are VERY poorly made and I hate past me
 	And just being a better mod in general
 
-Plans for v3.0
-	UI Rewrite
-		Move Descriptions
-		Add subtrees for the other 6 trees
-	Do ALL the trees and get them functional
+ALPHA RELEASE PLANS
+vA3.0
+	Do ALL the base trees and get them functional
+		Not including swaps for Machines/Hive Minds, those come later
 		
 	Expansion
 		Spacebound/Terraformers NEEDS LOC AND ICONS
@@ -71,16 +70,16 @@ Plans for v3.0
 			Building Branch
 				1 +2 Amenities from Housing
 				2 +1 Building Slot
-		Workers
+		Order
 			Adoption
-				Unlocks Planet descision that adds +5 Miner, Farmer, or Tech jobs,
+				Unlocks Planet decision that adds +5 Miner, Farmer, or Tech jobs,
 				Can be switched every 5 years
 			Finisher
 				+1 Base Output for Miners, Farmers, Technicians.
 				Fires event that gives choice and adds edict to switch
 			Law Enforcement
 				1 +1 Enforcer Unity Output
-				2 +1 Enforcer per 50 Pops
+				2 +1 Enforcer per 40 Pops
 			Workers/Slaves Branch
 				1 +5 Worker and Slave Happiness
 				2 -15% Worker and Slave Political Power
@@ -106,14 +105,41 @@ Plans for v3.0
 		X
 		Y
 		
-Plans for V3.1
-	Fix bugs
+vA3.1
+	Machine/Hive Swaps
 	AI Weights
 	
-Plans for V3.2
-	Fix Bugs
-	New trees related to AP paths
+vA3.2
+	Finish localisation and Icons
+
+BETA RELEASE PLANS
+vB3.0
+	Steam Release, probably on its own page til full version is ready
+	This will come shortly after vA3.2, want to catch all the localisation and icons that may be broken and fix before release
+	Will contain balances and tweaks to finished stuff
 	
-Plans for V3.3
-	Fix Bugs
-	Stuff suggested by J and others
+vB3.1
+	New trees tied to Ascension Paths
+		Details will be added to this file later
+		Will come with basic localisation, full loc comes in next updates
+		
+	Genemodding
+		Cloning
+		Biogenesis
+		Mutagenesis
+		
+	Psionics
+		Faith
+		Psionics
+		Shroudbound
+		
+	Synthetics
+		Cybernetics
+		Advanced Robotics
+		Synthetics
+		
+vB3.2
+	Finish localisation for new trees
+
+FULL RELEASE PLANS
+v3.0

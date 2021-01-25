@@ -78,4 +78,29 @@ spriteTypes = {
 		name = "GFX_tt_leadership_5"
 		textureFile = "gfx/tradition_unknown.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_tt_order_1"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_order_2"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_order_3"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_order_4"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tt_order_5"
+		textureFile = "gfx/tradition_unknown.dds"
+	}
 }

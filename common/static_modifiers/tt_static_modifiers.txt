@@ -1,0 +1,26 @@
+#tt_order
+#tt_order_adopt
+tt_order_miners = {
+	job_miner_add = 5
+}
+
+tt_order_farmers = {
+	job_farmer_add = 5
+}
+
+tt_order_techs = {
+	job_technician_add = 5
+}
+
+#tt_order_finish
+tt_order_minerals = {
+	planet_miners_minerals_produces_add = 1
+}
+
+tt_order_food = {
+	planet_farmers_food_produces_add = 1
+}
+
+tt_order_ec = {
+	planet_technician_energy_produces_add = 1
+}

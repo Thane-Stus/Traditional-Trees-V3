@@ -98,6 +98,12 @@ guiTypes = {
 	positionType = { name = "tt_leadership_4"        				 	position = { x = 201 y = 55 } }
 	positionType = { name = "tt_leadership_5"        		         	position = { x = 201 y = 125 } }
 
+	positionType = { name = "tt_order_1"							  	position = { x = 61 y = 55 } }
+	positionType = { name = "tt_order_2"						 	 	position = { x = 61 y = 125 } }
+	positionType = { name = "tt_order_3"						 	 	position = { x = 166 y = 55 } }
+	positionType = { name = "tt_order_4"							  	position = { x = 131 y = 125 } }
+	positionType = { name = "tt_order_5"						 	 	position = { x = 201 y = 125 } }
+
 	
 #Ascension Perks
 	
@@ -1171,7 +1177,7 @@ guiTypes = {
 			}
 			
 			################################################################
-			# Mass Colonization
+			# Colonialism
 			################################################################
 
 			containerWindowType = {
@@ -1270,7 +1276,7 @@ guiTypes = {
 			}
 			
 			################################################################
-			# Domination Subtree 1
+			# Leadership
 			################################################################
 
 			containerWindowType = {
@@ -1369,11 +1375,11 @@ guiTypes = {
 			}
 			
 			################################################################
-			# Domination Subtree 2
+			# Order
 			################################################################
 
 			containerWindowType = {
-				name = "tt_dom_2"
+				name = "tt_order"
 				size = { width = @entry_w height = @entry_h_narrow }
 				position = { x = @entries_column4 y = @entries_row3_y }
 
@@ -1394,7 +1400,7 @@ guiTypes = {
 					name = "category_label"
 					font = "malgun_goth_24"
 					position = { x = 18 y = 4 }
-					text = "tt_dom_2"
+					text = "tt_order"
 				}
 
 				containerWindowType = {
@@ -1447,7 +1453,23 @@ guiTypes = {
 					format = center
 					vertical_alignment = center
 					alwaystransparent = yes
-					text = "tt_dom_2_desc"
+					text = "tt_order_desc"
+				}
+
+				containerWindowType = {
+					name = "tree"
+
+					iconType = {
+						name = "arrow_1"
+						spriteType = "GFX_arrow_single"
+						position = { x = 77 y = 100 }
+					}
+					
+					iconType = {
+						name = "arrow_2"
+						spriteType = "GFX_arrow_double"
+						position = { x = 147 y = 100 }
+					}
 				}
 			}
 			

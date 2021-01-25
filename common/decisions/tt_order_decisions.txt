@@ -1,0 +1,80 @@
+tt_order_farmers_decision = {
+	owned_planets_only = yes
+	icon = decision_crime #FIX
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+		}
+	}
+	
+	potential = {
+		NOT = { has_modifier = tt_order_farmers }
+		owner = { has_tradition = tt_order_adopt }
+	}
+	
+	effect = {
+		remove_modifier = tt_order_techs
+		remove_modifier = tt_order_miners
+		add_modifier = { modifier = "tt_order_farmers" days = -1 }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+tt_order_miners_decision = {
+	owned_planets_only = yes
+	icon = decision_crime #FIX
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+		}
+	}
+	
+	potential = {
+		NOT = { has_modifier = tt_order_miners }
+		owner = { has_tradition = tt_order_adopt }
+	}
+	
+	effect = {
+		remove_modifier = tt_order_techs
+		remove_modifier = tt_order_farmers
+		add_modifier = { modifier = "tt_order_miners" days = -1 }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+tt_order_echs_decision = {
+	owned_planets_only = yes
+	icon = decision_crime #FIX
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+		}
+	}
+	
+	potential = {
+		NOT = { has_modifier = tt_order_techs }
+		owner = { has_tradition = tt_order_adopt }
+	}
+	
+	effect = {
+		remove_modifier = tt_order_miners
+		remove_modifier = tt_order_farmers
+		add_modifier = { modifier = "tt_order_techs" days = -1 }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}

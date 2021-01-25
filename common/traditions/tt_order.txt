@@ -1,0 +1,93 @@
+tt_order_adopt = {
+	possible = {
+		has_tradition = tr_domination_colonial_viceroys
+		has_tradition = tr_domination_imperious_architecture
+		has_tradition = tr_domination_grand_council
+		has_tradition = tr_domination_judgment_corps
+		has_tradition = tr_domination_workplace_motivators
+	}
+
+	#Unlocks a planet decision that add +5 Miner, Farmer, OR Tech jobs.
+	#Handled in decisions file
+	
+	ai_weight = { #FIX
+		factor = 0
+	}
+}
+
+tt_order_finish = {
+	modifier = {
+		ascension_perks_add = 1
+	}
+
+	#Unlocks an edict that adds +1 to output from Miners, Farmers, or Techs
+	#Handled in edicts and events file
+	on_enabled = {
+		country_event = { id = tt_order_events.1 }
+	}
+}
+
+tt_order_1 = {
+	modifier = {
+		planet_enforcers_unity_produces_add = 1
+	}
+	
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+tt_order_2 = {
+	possible = {
+		has_tradition = tt_order_1
+	}
+	
+	modifier = {
+		job_enforcer_per_pop = 0.025
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tt_order_3 = {
+	modifier = {
+		pop_cat_worker_happiness = 0.05
+		pop_cat_slave_happiness = 0.05
+	}
+	
+	ai_weight = {
+		factor = 1000
+	}
+}
+
+tt_order_4 = {
+	possible = {
+		has_tradition = tt_order_3
+	}
+	
+	modifier = {
+		pop_cat_worker_political_power = -0.15
+		pop_cat_slave_political_power = -0.15
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}
+
+tt_order_5 = {
+	possible = {
+		has_tradition = tt_order_3
+	}
+	
+	modifier = {
+		pop_category_workers_upkeep_mult = -0.15
+		pop_category_slave_upkeep_mult = -0.15
+	}
+	
+	ai_weight = {
+		factor = 5000
+	}
+}

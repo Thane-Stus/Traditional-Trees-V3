@@ -50,6 +50,10 @@ tt_leadership_2 = {
 }
 
 tt_leadership_3 = {
+	possible = {
+		has_tradition = tt_leadership_1
+	}
+	
 	modifier = {
 		leaders_upkeep_mult = -0.33
 	}
@@ -60,10 +64,6 @@ tt_leadership_3 = {
 }
 
 tt_leadership_4 = {
-	possible = {
-		has_tradition = tt_leadership_3
-	}
-	
 	#+1 Amenities from Houses
 	#Handled in Building file
 	
@@ -74,7 +74,7 @@ tt_leadership_4 = {
 
 tt_leadership_5 = {
 	possible = {
-		has_tradition = tt_leadership_3
+		has_tradition = tt_leadership_4
 	}
 	
 	#+1 Building slot

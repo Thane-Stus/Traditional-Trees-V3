@@ -1,0 +1,26 @@
+tt_order_edict = {
+	length = 0
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = campaigns
+		cost = {
+			energy = 1
+		}
+	}
+
+	effect = {
+		country_event = { id = tt_order_events.1 days = 0 }
+	}
+
+	potential = {
+		OR = { 
+			has_modifier = tt_order_ec
+			has_modifier = tt_order_food
+			has_modifier = tt_order_minerals
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
