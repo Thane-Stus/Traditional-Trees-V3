@@ -11,6 +11,10 @@ List of things that are fully coded but missing loc or icons
 	tt_leadership_events
 		This needs rewritten into multiple events
 	tt_leadership_edict
+	tt_order
+	tt_order_decisions
+	tt_order_edicts
+	tt_order_static_modifiers
 	
 List of vanilla files and folders that get overwritten
 
