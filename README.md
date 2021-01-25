@@ -1,6 +1,10 @@
 #Traditional Trees V3
 
-Direct any suggestions or offers of help to @Thane-Stus#0893 on Discord
+CURRENT VERSION REQUIRES UNIVERSAL MODIFIER PATCH
+
+https://steamcommunity.com/workshop/filedetails/?id=1688887083
+
+Direct any suggestions etc. to @Thane-Stus#0893 on Discord or #traditional-trees in the Stellaris Modding Den
 
 List of things that are fully coded but missing loc or icons
 	
@@ -11,6 +15,10 @@ List of things that are fully coded but missing loc or icons
 	tt_leadership_events
 		This needs rewritten into multiple events
 	tt_leadership_edict
+	tt_order
+	tt_order_decisions
+	tt_order_edicts
+	tt_order_static_modifiers
 	
 List of vanilla files and folders that get overwritten
 
