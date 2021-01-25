@@ -4,7 +4,7 @@ CURRENT VERSION REQUIRES UNIVERSAL MODIFIER PATCH
 
 https://steamcommunity.com/workshop/filedetails/?id=1688887083
 
-Direct any suggestions or offers of help to @Thane-Stus#0893 on Discord
+Direct any suggestions etc. to @Thane-Stus#0893 on Discord or #traditional-trees in the Stellaris Modding Den
 
 List of things that are fully coded but missing loc or icons
 	
