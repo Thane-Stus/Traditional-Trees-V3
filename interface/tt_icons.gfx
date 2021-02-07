@@ -1,9 +1,9 @@
-####################################################################
-### Tradition Related Graphics Which Is Not The Icons Themselves ###
-####################################################################
-
-### Adopter Tradition Category ###
 spriteTypes = {
+	spriteType = {
+		name = "GFX_tt_right"
+		textureFile = "gfx/arrow_right.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_tt_colonialism_1"
 		textureFile = "gfx/tradition_unknown.dds"

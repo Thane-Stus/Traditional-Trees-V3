@@ -16,7 +16,7 @@ TTV3 Main Goals
 	And just being a better mod in general
 
 ALPHA RELEASE PLANS
-vA3.0
+V3 Alpha 1
 	Do ALL the base trees and get them functional
 		Not including swaps for Machines/Hive Minds, those come later
 		
@@ -34,10 +34,10 @@ vA3.0
 					1 -25% Terraforming Cost
 					2 +33% Terraforming Speed
 			Emp Spawl Branch
-				+2 Admin Cap from Bcrats
+				3 +2 Admin Cap from Bcrats
 			Starbase Branch
-				1 +3 Starbase Cap
-				2 +6 Starbase Defense Platforms
+				4 +3 Starbase Cap
+				5 +6 Starbase Defense Platforms
 				
 		Colonialism NEEDS LOC AND ICONS
 			Adoption
@@ -46,14 +46,14 @@ vA3.0
 				+1 Building Slot
 			Rapid Colonization Branch
 				1 -25% Colony Ship Upkeep/Build Cost
-				Rapid Colonization
+				2 Rapid Colonization
 					+50% Colony Dev Speed
 			Colonization Initiatives Branch
-				Colonization Initiatives
+				3 Colonization Initiatives
 					+15% Migrant Growth
 					+33% Migrant Attraction
-				2 +10 Habitability
-				3 +2 Colonists on new Colonies
+				4 +10 Habitability
+				5 +2 Colonists on new Colonies
 				
 	Domination
 		Leadership
@@ -68,8 +68,8 @@ vA3.0
 				2 -33% Leader Recruitment Cost
 				3 -33% Leader Upkeep
 			Building Branch
-				1 +2 Amenities from Housing
-				2 +1 Building Slot
+				4 +2 Amenities from Housing
+				5 +1 Building Slot
 		Order
 			Adoption
 				Unlocks Planet decision that adds +5 Miner, Farmer, or Tech jobs,
@@ -81,13 +81,52 @@ vA3.0
 				1 +1 Enforcer Unity Output
 				2 +1 Enforcer per 40 Pops
 			Workers/Slaves Branch
-				1 +5 Worker and Slave Happiness
-				2 -15% Worker and Slave Political Power
-				3 -15% Worker and Slave Upkeep
+				3 +5 Worker and Slave Happiness
+				4 -15% Worker and Slave Political Power
+				5 -15% Worker and Slave Upkeep
 		
 	Discovery
-		X
-		Y
+		Experimentalism
+			Adoption
+				+1 Research Alternatives
+			Finisher
+				Unlocks an edict that allows you to pick a research category to boost
+					Gives +100% to your chosen category and -20% to other categories
+					This applys to Physics/Society/Engineering not one of the more specific categories
+					Can be disabled for no bonus
+			Ships Branch
+				1 Choice between boost to Small, Large, or Massive ship build speed and cost boost
+					+33% Build Speed and -25% Build Cost for ships in selected category
+					Small = Corv+Desto
+					Large = Cruiser+BS
+					Massive = Titan+Jugg
+				2 Choice between a boost to Hull, Armor, or Shields.
+					+33% to selected health type
+					-10% to other types
+				3 Choice between a boost to Lasers, Projectiles, or Missles/Torps
+					+25% Damage for slected weapon type
+					-10% to other types
+			Research Branch
+				4 
+				5 
+		Academia
+			Adoption
+				Unlocks planet unique Advanced Research Intitute
+				Provides +8 Researcher Jobs, +10% Researcher Outputs, and +2% Empire Research Speed
+				Yes the ERS bonus will stack, no there wont be a max number of these you can build
+				They will require a high level capital building though
+			Finisher
+				+1% Researcher Output per Researcher on a Planet
+			Researcher Branch
+				1 +15% Researcher Output
+				2 Selectable Bonus
+					Gives +1 to 1 of the 3 Science outputs that Resarchers make
+				3 +1 Researcher per 40 Pops
+			Scientist Branch
+				4 Gives +1 to all leader levels and an additonal +1 to Scientists
+					+1 Leader Level Cap	
+					+1 Scientist Level Cap
+				5 +50% Leader Exp Gain
 		
 	Harmony
 		X
@@ -104,42 +143,24 @@ vA3.0
 	Supremacy
 		X
 		Y
-		
-vA3.1
+
+V3 Alpha 2
 	Machine/Hive Swaps
-	AI Weights
-	
-vA3.2
-	Finish localisation and Icons
 
-BETA RELEASE PLANS
-vB3.0
-	Steam Release, probably on its own page til full version is ready
-	This will come shortly after vA3.2, want to catch all the localisation and icons that may be broken and fix before release
-	Will contain balances and tweaks to finished stuff
-	
-vB3.1
-	New trees tied to Ascension Paths
-		Details will be added to this file later
-		Will come with basic localisation, full loc comes in next updates
-		
-	Genemodding
-		Cloning
-		Biogenesis
-		Mutagenesis
-		
-	Psionics
-		Faith
-		Psionics
-		Shroudbound
-		
-	Synthetics
-		Cybernetics
-		Advanced Robotics
-		Synthetics
-		
-vB3.2
-	Finish localisation for new trees
+V3 Alpha 3
+	As much localisation as is needed to make this playable
 
-FULL RELEASE PLANS
-v3.0
+V3 Beta 1
+	Fix any bugs in Alpha 3
+	Steam Release
+
+V3 Beta 2
+	3 New Trees based around the Ascension Paths
+	These will be borrowed from an abonanded mod of mine, details later
+
+V3 Beta 3
+	Finalize localisation
+	Icons for everything
+
+V3 Release
+	Fix any bugs in Beta 3

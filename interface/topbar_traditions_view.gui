@@ -668,11 +668,11 @@ guiTypes = {
 						position = { x = 301 y = 106 }
 					}
 
-					#iconType = {
-					#	name = "arrow_3"
-					#	spriteType = "GFX_arrow_right"
-					#	position = { x = 332 y = 146 }
-					#}
+					iconType = {
+						name = "arrow_3"
+						spriteType = "GFX_arrow_right"
+						position = { x = 332 y = 146 }
+					}
 				}
 			}
 
